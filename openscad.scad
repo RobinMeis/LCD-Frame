@@ -13,9 +13,9 @@ wall = 2;
 
 module frame() {
     difference() {
-        color("red") cube([50,62,4], center=true); //Outer frame
+        color("red") cube([55,67,4], center=true); //Outer frame
         cube([40,52,10], center=true); //LCD
-        translate([0,-2.5,-1]) cube([44,62,4], center=true); //Display
+        translate([0,-2.5,-1]) cube([43.5,62,4], center=true); //Display
         
         translate([0,31.5,0-1]) cube([100,5,4], center=true);
         translate([-25,0,0-1]) cube([5,100,4], center=true);
